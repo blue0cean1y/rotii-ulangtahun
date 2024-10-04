@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+  }
+  
+  .cake {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .top-layer,
+  .middle-layer,
+  .bottom-layer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 1000px;
+  }
+  
+  .top-layer {
+    width: 120px;
+    height: 50px;
+    background-color: #ca207d;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .middle-layer {
+    width: 150px;
+    height: 60px;
+    background-color: #10c4ca;
+    top: 50px;
+    z-index: 2;
+  }
+  
+  .bottom-layer {
+    width: 180px;
+    height: 70px;
+    background-color: #10035a;
+    top: 110px;
+    z-index: 1;
+  }
+  
+  .candle {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 30px;
+    background-color: #b7bac9;
+    border-radius: 5px;
+    z-index: 4;
+  }
+  
+  .flame {
+    position: absolute;
+    top: -20px;
+    left: o;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 500px;
+    box-shadow: 0 0 20px 10px rgba(255, 2, 2, 0.7);
+  }
+  
+  .text {
+    position: absolute;
+    color:#b7bac9;
+    top: -100px;
+    left: 29%;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 24px;
+  }  
